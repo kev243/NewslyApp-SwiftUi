@@ -51,8 +51,12 @@
 		0A9D97972BAD3F520035894C /* Newsly */ = {
 			isa = PBXGroup;
 			children = (
-				0A9D97982BAD3F520035894C /* NewslyApp.swift */,
-				0A9D979A2BAD3F520035894C /* ContentView.swift */,
+				0A9D97AC2BAD443E0035894C /* App */,
+				0A9D97AB2BAD442D0035894C /* Root */,
+				0A9D97AA2BAD44210035894C /* Components */,
+				0A9D97A92BAD43FC0035894C /* Service */,
+				0A9D97A82BAD43F30035894C /* ViewModel */,
+				0A9D97A62BAD43D70035894C /* View */,
 				0A9D979C2BAD3F540035894C /* Assets.xcassets */,
 				0A9D979E2BAD3F540035894C /* Preview Content */,
 			);
@@ -65,6 +69,50 @@
 				0A9D979F2BAD3F540035894C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A9D97A62BAD43D70035894C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A9D97A82BAD43F30035894C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0A9D97A92BAD43FC0035894C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0A9D97AA2BAD44210035894C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0A9D97AB2BAD442D0035894C /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				0A9D979A2BAD3F520035894C /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		0A9D97AC2BAD443E0035894C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0A9D97982BAD3F520035894C /* NewslyApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
