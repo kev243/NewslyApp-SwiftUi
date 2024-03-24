@@ -57,7 +57,7 @@ struct HomeView: View {
                     VStack(spacing:25){
                         ForEach(0..<6) { _ in
                             NavigationLink{
-                                Text("news view")
+                                NewsView()
                             }label:{
                                 LatesNewsView()
             
