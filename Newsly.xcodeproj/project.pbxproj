@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A4C2B762BAFEC9600647013 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C2B752BAFEC9600647013 /* NewsView.swift */; };
+		0A4C2B782BB0A03100647013 /* AllNewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C2B772BB0A03100647013 /* AllNewsView.swift */; };
 		0A9D97992BAD3F520035894C /* NewslyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D97982BAD3F520035894C /* NewslyApp.swift */; };
 		0A9D979B2BAD3F520035894C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D979A2BAD3F520035894C /* ContentView.swift */; };
 		0A9D979D2BAD3F540035894C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D979C2BAD3F540035894C /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		0A4C2B752BAFEC9600647013 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		0A4C2B772BB0A03100647013 /* AllNewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNewsView.swift; sourceTree = "<group>"; };
 		0A9D97952BAD3F520035894C /* Newsly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Newsly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9D97982BAD3F520035894C /* NewslyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewslyApp.swift; sourceTree = "<group>"; };
 		0A9D979A2BAD3F520035894C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 			children = (
 				0A9D97AD2BAE2D550035894C /* HomeView.swift */,
 				0A4C2B752BAFEC9600647013 /* NewsView.swift */,
+				0A4C2B772BB0A03100647013 /* AllNewsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				0A9D97B02BAE2EF10035894C /* AlaUneView.swift in Sources */,
 				0A9D97B22BAE83ED0035894C /* LatesNewsView.swift in Sources */,
+				0A4C2B782BB0A03100647013 /* AllNewsView.swift in Sources */,
 				0A9D97AE2BAE2D550035894C /* HomeView.swift in Sources */,
 				0A4C2B762BAFEC9600647013 /* NewsView.swift in Sources */,
 				0A9D979B2BAD3F520035894C /* ContentView.swift in Sources */,

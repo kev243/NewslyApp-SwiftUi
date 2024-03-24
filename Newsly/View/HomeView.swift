@@ -10,7 +10,6 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         NavigationStack {
-            
             ScrollView (showsIndicators: false){
                 VStack(alignment:.leading,spacing: 0){
                     HStack{
@@ -18,7 +17,7 @@ struct HomeView: View {
                             .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                             .bold()
                         Spacer()
-                        Text("23 janv")
+                        Text("🌎")
                             .bold()
                     }
                     .padding()
@@ -45,7 +44,7 @@ struct HomeView: View {
                         
                         Spacer()
                         
-                        NavigationLink(destination: Text("News")) {
+                        NavigationLink(destination: AllNewsView()) {
                             Image(systemName: "circle.grid.2x2.fill")
                                 .foregroundColor(.primary)
                                 

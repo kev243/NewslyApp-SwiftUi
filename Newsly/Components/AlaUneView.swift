@@ -17,7 +17,7 @@ struct AlaUneView: View {
                         image
                             .resizable()
                             .aspectRatio(contentMode: .fill)
-                            .frame( maxWidth:.infinity) // Taille de l'image
+                            .frame(maxWidth: .infinity, maxHeight: 180) // Taille de l'image
                             .clipped()
                     case .failure(let error):
                         Text("Failed to load image: \(error.localizedDescription)")
@@ -28,15 +28,8 @@ struct AlaUneView: View {
                     }
                    
                 }
-                .frame(maxWidth: .infinity, maxHeight: 180) 
+//                .frame(maxWidth: .infinity, maxHeight: 180) 
                 }
-            .overlay(alignment: .topTrailing) {
-                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                        Image(systemName: "bookmark.fill")
-                            .foregroundColor(.white)
-                            .padding()
-                      })
-                  }
             
             VStack(alignment:.leading) {
                 Text("ABC News :")

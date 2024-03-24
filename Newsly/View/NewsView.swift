@@ -27,7 +27,6 @@ struct NewsView: View {
                                 .frame(height: 200) // Taille de l'image
                                 .cornerRadius(10)
                                 .clipped()
-//                                .padding(.horizontal, 5)
                         case .failure(let error):
                             Text("Failed to load image: \(error.localizedDescription)")
                         case .empty:
@@ -76,15 +75,6 @@ struct NewsView: View {
                 
             }
             .padding()
-        }
-        .toolbar{
-            ToolbarItem(placement: .navigationBarTrailing) {
-                Button(action: {}, label: {
-                    Image(systemName: "bookmark.fill")
-                        .foregroundColor(.primary)
-                        .padding()
-                })
-            }
         }
     }
 }
